@@ -8,6 +8,9 @@ app.get('/',function(req,  res){
 app.get('/contact',function(req,res){
     res.send('contacvt me at : fhwjajoi.com')
 });
+app.get('/about', function(req,res){
+    res.send('im a web developer');
+});
 app.listen(3000 , function(){
     console.log('server start server');
 });
